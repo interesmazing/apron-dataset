@@ -127,3 +127,8 @@ DATASETS['ApronCoarse'] = Dataset({
     20: ('Traffic Sign', (214, 140, 113), [21, 26, 38, 41]),
     21: ('Transport Container', (243, 13, 13), [39]),
     22: ('Transport Vehicle', (76, 184, 101), [40])})
+
+DATASETS['Person'] = Dataset({
+    22: ('Person Wearing Reflective Vests', (165, 155, 31)),
+    42: ('Person', (161, 140, 67))
+})
